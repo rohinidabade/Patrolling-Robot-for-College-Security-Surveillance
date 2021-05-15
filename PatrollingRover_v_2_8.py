@@ -121,7 +121,7 @@ def SendMail(ImgFileName):
     s.ehlo()
     s.starttls()
     s.ehlo()
-    s.login("Patrollingrobot24@gmail.com", "security2407")
+    s.login("Patrollingrobot24@gmail.com", "********")
     s.sendmail("Patrollingrobot24@gmail.com", "tejaswinimane.50@gmail.com", msg.as_string())
     s.quit()
     print('Captured photo sent')
