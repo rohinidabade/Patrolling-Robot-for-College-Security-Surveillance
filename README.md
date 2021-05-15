@@ -1,2 +1,12 @@
 # Patrolling-Robot-for-College-Security-Surveillance
-The purpose of this project is to develop a “patrolling robot for college security surveillance”. The important role of this patrolling robot is to provide security on college campuses in daily life. In this work the patrolling robot system comprises the Raspberry Pi 3 B model, Wireless camera and sound sensors. When the patrolling robot detects any object, it will capture the picture with the help of pi camera and store it to the desktop. on the other had it will also stream the live video. As well as the smoke and the sound sensors are installed on the robot so that robot can find the fire and sound. The movement of a robot is also controlled automatically through obstacle detecting sensors to avoid the collision. To maintain safety and security, the conventional surveillance system relies critically on human attention, action, and intelligence.
+
+This is a robot which is working with the help of Raspberry Pi microcontroller and code is written in the python language.
+
+PatrollingRover_v_2_8.py : The file contains the code for the movement of the robot and sensing distance using the ultasonic sensor as well as the code for temperature and humidity.
+Fire.py : The file contains the code for early detection of the fire.
+Live_Video_streaming.py : This python file contains the code for the live streaming of the surrounding by using the pi camera.
+
+In this project we have used the firebase database for real time data storage for that we have develope code.
+
+b.py: Containing a code for temperature and humidity sensor data for storing on firebase.
+
