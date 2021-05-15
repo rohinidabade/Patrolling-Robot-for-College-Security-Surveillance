@@ -109,8 +109,8 @@ def SendMail(ImgFileName):
     img_data = open(ImgFileName, 'rb').read()
     msg = MIMEMultipart()
     msg['Subject'] = 'Captured Image'
-    msg['From'] = 'Patrollingrobot24@gmail.com'
-    msg['To'] = 'tejaswinimane.50@gmail.com'
+    msg['From'] = 'abc@gmail.com'
+    msg['To'] = 'xyz@gmail.com'
 
     text = MIMEText("Image sent by rover")
     msg.attach(text)
